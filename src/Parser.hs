@@ -193,5 +193,8 @@ whileTest1 :: Bool
 whileTest1 = parse parseWhile "while (1+1) do {a:=1;}; end;"
                 == [(While (App Add (Val 1) (Val 1)) (Assign 'a' (Val 1)),"")]
 
-seqnTest1 :: String
-seqnTest1 = "begin { a := 1; b := 2; } end;"
+
+seqnTest1 :: Bool
+seqnTest1 = parse parseSeqn "begin { a := 1; b := 2; } end;"
+              == [(Seqn [Assign 'a' (Val 1),Assign 'b' (Val 2)],"")]
+          

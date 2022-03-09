@@ -1,9 +1,9 @@
 /home/jose/Documents/code/sc-lang/app/Main.hs:
-  hash: 55a2006efc92af9b6d236af6ab24176a0028ee04c48a689cdf185c6fd90028e1
+  hash: 8716f24f870a24dd42fd369a5751e0122d22c8a7a789c548dc9b3f89ae312ef8
 /home/jose/Documents/code/sc-lang/.stack-work/dist/x86_64-linux-nix/Cabal-3.2.1.0/build/sc-lang/autogen/Paths_sc_lang.hs:
   hash: 4af7648918a6bce836824e9463adc5054af39e3c5bfbddab73d4ea4f256b46e1
 /home/jose/Documents/code/sc-lang/sc-lang.cabal:
-  hash: b98d0cc2a2dfd4b3df925b4ef4960ce63f9e2b4145ba7564b35c68f55f70557c
+  hash: cf4baad92714e70565fb5d91fc3157ea8d96c1e00dde391f8de180458e5bb992
 /home/jose/Documents/code/sc-lang/ChangeLog.md:
   hash: 890322a1ac96bdd2c60460706b2d5d348d3307c744205b9ac71bf6b1a286f120
 /nix/store/7rfaw11na5ajdgwr55ffzwfibbrdpk8z-glibc-2.33-56-dev/include/stdc-predef.h:

@@ -27,9 +27,9 @@ library
   exposed-modules:
       CodeGen
       Data
-      FreeInterpreter
-      MTLInterpreter
+      FreeVM
       Parser
+      VM
   other-modules:
       Paths_sc_lang
   hs-source-dirs:

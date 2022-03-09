@@ -1,6 +1,6 @@
 {-# LANGUAGE DeriveFunctor #-}
 
-module FreeInterpreter where
+module FreeVM where
 
 import Control.Monad.Free (Free, liftF, iterM, foldFree)
 import Data (Bop, Label, Name, Stack, Environment)

@@ -1,4 +1,4 @@
-module MTLInterpreter where
+module VM where
 
 import Data.Map as M ( Map, alter, empty, lookup, member )
 import Control.Monad.State ( StateT(runStateT), MonadState(put, get), evalStateT )
@@ -37,7 +37,7 @@ runByteCode = do s <- get
 
 executeInstruction :: VMState -> Either String VMState
 executeInstruction (LOAD_VAL n     : cs, stack, env) = return (cs, n:stack, env)
-executeInstruction (READ_VAR name : cs, stack, env) = maybe (throwError $ "READ_VAR -> " ++ name : " is not in memory!") return((\n -> (cs, n:stack, env)) <$> M.lookup name env)
+executeInstruction (READ_VAR name : cs, stack, env) = maybe (throwError $ "READ_VAR -> " ++ name : " is not in memory!") return ((\n -> (cs, n:stack, env)) <$> M.lookup name env)
 executeInstruction (WRITE_VAR name   : cs, stack, env) | not (null stack)  = return (cs, tail stack, M.alter ((const . Just) . head $ stack) name env)
                                                  | otherwise         = throwError $ "WRITE_VAR -> " ++ name : " is not in memory!"
 executeInstruction (OP op      : cs, stack, env) | length stack >= 2 = let a = head stack

@@ -3,8 +3,7 @@ module Main where
 import CodeGen ( compile )
 import Parser ( parseSource )
 import Data ( Prog(Assign, While, Seqn), Expr(Val, App, Var), Bop(Sub, Mul) )
-import FreeInterpreter ()
-import MTLInterpreter ( execute )
+import VM ( execute )
 import System.Environment ( getArgs )
 
 {- Source language
