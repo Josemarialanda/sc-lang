@@ -1,0 +1,26 @@
+/home/jose/Documents/code/sc-lang/src/Data.hs:
+  hash: cbe2327ca1544a4faacdbea89361b8233e563708c45dab1683dfab6527a034f5
+/home/jose/Documents/code/sc-lang/.stack-work/dist/x86_64-linux-nix/Cabal-3.2.1.0/build/autogen/Paths_sc_lang.hs:
+  hash: 0f5454aade5aaecf027069ecc199b8dde0e5521506e7563a03781ef6c87465e2
+/home/jose/Documents/code/sc-lang/src/FreeInterpreter.hs:
+  hash: f318145511949a1d4bb5652e721f53b7e6a326356f313d1039269ec6c2e5f45f
+/home/jose/Documents/code/sc-lang/src/Parser.hs:
+  hash: cc65b5412a4cf739de01171a4ca83e381dd27c9503c7ce844800f5ee5324d693
+/home/jose/Documents/code/sc-lang/.stack-work/dist/x86_64-linux-nix/Cabal-3.2.1.0/build/autogen/cabal_macros.h:
+  hash: 3eb27b4d8d2d862775d76903df57260d723d69c87ab6c9358de0b0cd8530b76c
+/home/jose/Documents/code/sc-lang/sc-lang.cabal:
+  hash: b98d0cc2a2dfd4b3df925b4ef4960ce63f9e2b4145ba7564b35c68f55f70557c
+/home/jose/Documents/code/sc-lang/ChangeLog.md:
+  hash: 890322a1ac96bdd2c60460706b2d5d348d3307c744205b9ac71bf6b1a286f120
+/home/jose/Documents/code/sc-lang/src/MTLInterpreter.hs:
+  hash: dfacf40cb4f8b0fd1ccdd71879671532a335da4622d1cc0c00695f2224e6c258
+/nix/store/7rfaw11na5ajdgwr55ffzwfibbrdpk8z-glibc-2.33-56-dev/include/stdc-predef.h:
+  hash: 38bac01c137da3ec6623c5166d420cd0bdee18e1d6605921f138f74ef902f102
+/nix/store/86hjrkd6c14lq05ysspmp5qn02pa7jvr-ghc-8.10.7/lib/ghc-8.10.7/include/ghcversion.h:
+  hash: c013160c9aa8a98f4638616496dce720c23ceca8ef9d6b3212b654642fbda5e4
+/home/jose/Documents/code/sc-lang/src/CodeGen.hs:
+  hash: 22bf5cfcee7e3a54a2c9c906c86bfbd748bb9769be60455afb39f7c53a8e253a
+/home/jose/Documents/code/sc-lang/package.yaml:
+  hash: 9470147b8a0e5bff779483abb2a175ed5c13e2d8ca5e3030c365f52cb512fe53
+/home/jose/Documents/code/sc-lang/README.md:
+  hash: 4eeb0a3aedbc75b30e3767478e171efb46fa7d5a74e5fc9dd0c41c27878a4f84
